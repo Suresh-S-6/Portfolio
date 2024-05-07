@@ -14,18 +14,21 @@ const Footer = () => {
             height={60}
             width={60}
             className="footer-icons"
+            alt="linkedin"
           />
           <Image
             src={instagram}
             height={60}
             width={60}
             className="footer-icons"
+            alt="instagram"
           />
           <Image
             src={Twitter}
             height={60}
             width={60}
             className="footer-icons"
+            alt="twitter"
           />
         </div>
         <h3 className="text-center">Thank You!</h3>
