@@ -77,7 +77,7 @@ const MyWorks = () => {
       <h2>My Works</h2>
       <p className="my-works-content text-center mt-4 mb-5">
         Witness the brilliance of our previous projects. Our portfolio showcases
-        the successful collaborations we've had with diverse clients across
+        the successful collaborations we&apos;ve had with diverse clients across
         various industries. Let our work speak for itself.
       </p>
       <div className="row">

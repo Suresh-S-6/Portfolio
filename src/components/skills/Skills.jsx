@@ -62,7 +62,7 @@ const Skills = () => {
             </div>
             <p className="skills-heading">Customized Designs</p>
             <p className="skills-content">
-              Crafting unique designs tailored to each project's individual
+              Crafting unique designs tailored to each project&apos;s individual
               vision and requirements.
             </p>
           </div>

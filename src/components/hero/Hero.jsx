@@ -24,7 +24,7 @@ const Hero = () => {
                 style={{ color: "#FFD43B", width: "19px" }}
                 className="shake-icon"
               />
-              Vignesh Welcome's You
+              Vignesh Welcome&apos;s You
             </p>{" "}
             {/* Added hand wave icon */}
           </div>
