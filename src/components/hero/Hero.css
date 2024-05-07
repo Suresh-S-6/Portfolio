@@ -1,0 +1,39 @@
+.hero {
+  padding-top: 40px;
+  background-image: url(/Hero/Hero-Bg.svg);
+}
+.hero-content-container {
+  margin-block: 3rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.hero-heading {
+  font-family: "Syne", sans-serif;
+  font-size: 56px;
+  font-weight: 700;
+  line-height: 78.4px;
+  letter-spacing: 0.02em;
+  text-align: center;
+  color: #fff;
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+}
+.vignesh-text {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid rgb(50, 50, 50);
+  padding: 21px;
+  border-radius: 50px;
+  margin-top: 50px;
+}
+.vignesh-text p {
+  margin-bottom: 0rem;
+}
+.hero-content {
+  color: #b9b9b9;
+  margin-bottom: 50px;
+}

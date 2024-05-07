@@ -1,0 +1,18 @@
+.nav-link {
+  color: white;
+  font-family: "Montserrat", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 27px;
+  letter-spacing: 0.04em;
+  text-align: left;
+  padding: 16px !important;
+}
+.nav-link:hover {
+  color: #fff9f9;
+}
+.nav-link.active {
+  background: #27272f;
+  color: white !important;
+  border-radius: 10px;
+}

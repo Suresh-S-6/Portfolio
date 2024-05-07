@@ -1,0 +1,72 @@
+.skills {
+  padding-block: 6.25rem;
+}
+.skills-heading {
+  font-family: "Syne", sans-serif;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 36px;
+  letter-spacing: 0.02em;
+  text-align: center;
+}
+
+.skills-main-content {
+  font-family: "Montserrat", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 30.6px;
+  letter-spacing: 0.02em;
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
+.hr-tag {
+  border-color: #434343;
+  margin-block: 30px;
+}
+.skills-container {
+  display: flex;
+  padding: 30px 50px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  margin: 0 auto;
+  align-content: center;
+  text-align: center;
+  cursor: grab;
+  border-right: 1px solid #1a1a1a;
+}
+.skills-icon-circle {
+  border: 10px solid #0f0f0f;
+  background-color: #2e2d2d;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 93px;
+  height: 93px;
+  padding: 24px;
+  transition: all 0.4s ease-in;
+  margin-bottom: 15px;
+}
+.skills-content {
+  font-family: "Montserrat", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 30.6px;
+  letter-spacing: 0.02em;
+  text-align: center;
+  color: #b9b9b9;
+}
+.skills-container:hover .skills-icon-circle {
+  background: linear-gradient(180deg, #ef3c87 0%, #9f0244 72.5%);
+
+  border-color: #47132a;
+}
+.skills-container .skills-icon-circle img {
+  transition: all 0.4s ease-in;
+}
+.skills-container:hover .skills-icon-circle img {
+  filter: brightness(0) invert(1);
+}

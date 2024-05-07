@@ -1,0 +1,21 @@
+.slider {
+  margin-top: 3rem;
+  padding-block: 2rem;
+  background: #0e0e10;
+}
+
+.slider-content {
+  font-family: "Syne", sans-serif;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 27px;
+  text-align: left;
+  color: #fff;
+  display: flex !important;
+  align-items: center;
+  margin-bottom: 0;
+  gap: 10px;
+}
+.slider-content::before {
+  content: url(/Slider-Icon.svg);
+}

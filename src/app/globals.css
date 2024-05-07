@@ -1,4 +1,4 @@
-:root {
+/* :root {
   --max-width: 1100px;
   --border-radius: 12px;
   --font-mono: ui-monospace, Menlo, Monaco, "Cascadia Mono", "Segoe UI Mono",
@@ -104,4 +104,52 @@ a {
   html {
     color-scheme: dark;
   }
+} */
+
+body {
+  background-color: black;
+}
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Syne:wght@400..800&display=swap");
+h2,
+h3,
+p,
+h5,
+h6 {
+  color: #ffffff;
+}
+
+h2 {
+  font-size: 48px;
+  font-weight: 600;
+  line-height: 72px;
+  text-align: center;
+}
+
+h3 {
+  font-size: 44px;
+  font-weight: 700;
+  line-height: 66px;
+}
+h6 {
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 30px;
+}
+p {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 27px;
+}
+
+.c-btn {
+  padding: 21.5px 37px;
+  background: linear-gradient(180deg, #ef3c87 0%, #9f0244 72.5%);
+  border-radius: 10px;
+  font-family: "Syne", sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 27px;
+  letter-spacing: 0.02em;
+
+  color: #fff;
 }
